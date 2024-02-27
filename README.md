@@ -1,10 +1,10 @@
 README
 
 
-Matlab data and code related to the following paper: 
+Matlab data and code related to the paper: 
 
 Stochastic characterization of navigation strategies in an automated variant of the Barnes maze
-Juyoung Lee, Dahee Jung and Sebastien Royer
+Ju-Young Lee, Dahee Jung and Sebastien Royer
 eLife 2023
 
 
