@@ -25,7 +25,7 @@ for dd = 1:length(Day_range)
 
     %get start_positions for that day, from experimental data 
     trial_range = Day_range(dd)*n_trials + (1:n_trials);
-    start_positions = MTSBELDG(MTSBELDG(:,1)==Mice_range(1) & ismember(MTSBELDG(:,2),trial_range) & MTSBELDG(:,3)==1,4);
+    start_positions = MTSBELDG(MTSBELDG(:,1)==1 & ismember(MTSBELDG(:,2),trial_range) & MTSBELDG(:,3)==1,4);
 
     for ii = 1:length(Percent_random)
         for jj = 1:length(Percent_serial)
